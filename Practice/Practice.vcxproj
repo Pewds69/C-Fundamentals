@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Pointer_Traversal.cpp" />
+    <ClCompile Include="Structs.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pointer_Traversal.h" />
+    <ClInclude Include="Structs.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

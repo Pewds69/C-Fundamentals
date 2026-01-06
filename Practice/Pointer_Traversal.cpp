@@ -1,6 +1,6 @@
-
 #include<stdio.h>
-
+#include "Pointer_Traversal.h"
+	
 void print_array(int arr[], int size)
 {
 	int* p = arr;
@@ -69,16 +69,8 @@ void normalize(int* arr, int size)
 		printf("%d ", *p);
 		p++;
 		
+		
 	}
+	printf("\n");
 }
 
-int main(void)
-{
-	int readings[6] = { 3, 7, 2, 9, 4, 6 };
-	
-	
-	print_array(readings, 6);
-	find_max_value(readings, 6);
-	normalize(readings, 6);
-	return 0;
-}
