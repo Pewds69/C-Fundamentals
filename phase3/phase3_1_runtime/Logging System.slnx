@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Logging System/Logging System.vcxproj" Id="a0ec4cdb-222a-40fe-a620-6ee34790df1b" />
+</Solution>
